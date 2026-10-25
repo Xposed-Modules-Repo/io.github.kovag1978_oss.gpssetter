@@ -13,14 +13,14 @@ GPS Setter is an Xposed module for changing the location seen by Android apps. I
 
 ## Download
 
+> **App ID changed:** older releases use `io.github.kovag1978oss.gpssetter`; the current ID is `io.github.kovag1978_oss.gpssetter`. Android treats them as separate apps, so uninstall the old version before installing the current one. App data and settings are not transferred.
+
 Download the latest arm64 APK from [GitHub Releases](https://github.com/kovag1978-oss/android_gps_setter/releases/latest):
 
 | Variant | Maps | Fused location | Download |
 | --- | --- | --- | --- |
 | **Full** | Google Maps | Google Play services | [Full APK](https://github.com/kovag1978-oss/android_gps_setter/releases/latest/download/app-full-arm64-v8a-release.apk) |
 | **FOSS** | MapLibre | microG | [FOSS APK](https://github.com/kovag1978-oss/android_gps_setter/releases/latest/download/app-foss-arm64-v8a-release.apk) |
-
-This fork has a separate app ID (`io.github.kovag1978_oss.gpssetter`) and can be installed alongside the upstream app.
 
 ## Setup
 
